@@ -1,14 +1,13 @@
 @font-face {
     font-family: "HelveticaRegular";
-    url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"),
-    font-style: normal;
+url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"), font-style: normal;
     font-weight: normal;
 }
 
-*{
-    margin:0;
-    padding:0;
-    border:0;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
     font-family: 'Helvetica', serif;
 }
 
@@ -23,11 +22,11 @@
 }
 
 .circle {
-     width: 58px;
-     height: 58px;
-     background-color: #ff8364;
-     border-radius: 50%;
- }
+    width: 58px;
+    height: 58px;
+    background-color: #ff8364;
+    border-radius: 50%;
+}
 
 .logo-name {
     color: #141414;
@@ -126,13 +125,13 @@
 
 .pricing__variants.orange {
     border: 1px solid #ff8364;
-margin-left: 21px;
+    margin-left: 21px;
 }
 
 .wrapper__pricing {
-     display: flex;
+    display: flex;
     justify-content: center;
-    padding-bottom:119px;
+    padding-bottom: 119px;
     border-bottom: 1px solid #e6e6e6;
 }
 
@@ -255,8 +254,7 @@ margin-left: 21px;
 }
 
 .input-wrap {
-padding-top: 15px;
-
+    padding-top: 15px;
 
 
 }
@@ -297,22 +295,23 @@ padding-top: 15px;
         flex-direction: column;
         padding-bottom: 24px;
     }
+
     .basics {
         margin: 0;
     }
 
     .input,
-.text,
-.basics .header,
-.letters__description {
+    .text,
+    .basics .header,
+    .letters__description {
         width: 200px;
         margin: 0 auto;
         font-size: 30px;
         line-height: 34px;
-}
+    }
 
     .text,
-    .letters__description{
+    .letters__description {
         font-size: 13px;
         line-height: 19px;
     }
@@ -370,5 +369,6 @@ padding-top: 15px;
 @media (max-width: 350px) {
     .letters {
         margin: 0;
+        margin-left: 7px;
     }
 }
