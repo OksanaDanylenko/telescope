@@ -1,0 +1,374 @@
+@font-face {
+    font-family: "HelveticaRegular";
+    url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"),
+    font-style: normal;
+    font-weight: normal;
+}
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: 'Helvetica', serif;
+}
+
+.main-header {
+    height: 36.188em;
+    background-color: #f3f3f3;
+    margin-bottom: 110px;
+}
+
+.header__links {
+    margin-top: 13px;
+}
+
+.circle {
+     width: 58px;
+     height: 58px;
+     background-color: #ff8364;
+     border-radius: 50%;
+ }
+
+.logo-name {
+    color: #141414;
+    font-size: 36px;
+    letter-spacing: -0.9px;
+    line-height: 60px;
+    margin-left: 30px;
+}
+
+.logo-section {
+    display: flex;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 40px 102px 30px;
+}
+
+.link {
+    color: #ff8364;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.button {
+    height: 32px;
+    border-radius: 4px;
+    background-color: #ff8364;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+
+.button-small {
+    margin-left: 28px;
+    width: 120px;
+}
+
+.basics .header {
+    width: 475px;
+}
+
+.header {
+    color: #141414;
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: -1.2px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.text {
+    color: #616161;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+    line-height: 30px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 30px;
+}
+
+.text-small {
+    width: 475px;
+}
+
+.basics {
+    margin: auto 165px;
+}
+
+.pricing .header {
+    text-align: center;
+}
+
+.long-text {
+    width: 730px;
+    margin: auto;
+    text-align: center;
+    border-bottom: none;
+    margin-bottom: 60px;
+}
+
+.pricing__variants {
+    width: 317px;
+    height: 387px;
+    border-radius: 8px;
+    border: 1px solid #e6e6e6;
+    padding: 30px;
+}
+
+.pricing__variants.orange {
+    border: 1px solid #ff8364;
+margin-left: 21px;
+}
+
+.wrapper__pricing {
+     display: flex;
+    justify-content: center;
+    padding-bottom:119px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.pricing__version {
+    color: #141414;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.cost {
+    color: #141414;
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: -1.2px;
+    line-height: 60px;
+    padding-bottom: 21px;
+    border-bottom: 1px solid #dedede;
+}
+
+.small-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;;
+    background-color: #b9b9b9;
+    margin-right: 13px;
+}
+
+.features__item {
+    display: flex;
+    color: #616161;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.1px;
+    line-height: 24px;
+    padding: 11px 5px 0px 1px;
+}
+
+.features__header {
+    color: #141414;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    line-height: 22px;
+    margin-top: 19px;
+    margin-bottom: 5px;
+}
+
+.description {
+    margin-top: 99px;
+    color: #616161;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: -0.1px;
+    line-height: 18px;
+}
+
+.orange .description {
+    margin-top: 34px;
+}
+
+.sign-up {
+    width: 156px;
+    color: #141414;
+    font-size: 24px;
+    letter-spacing: -0.6px;
+    line-height: 40px;
+    padding-right: 94px;
+}
+
+.input {
+    width: 430px;
+    height: 58px;
+    border-radius: 8px;
+    background-color: #f3f3f3;
+    outline: none;
+    padding-left: 24px;
+}
+
+.input::placeholder {
+    color: #616161;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -0.4px;
+    line-height: 36px;;
+}
+
+.button-big {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 24px;
+    letter-spacing: -0.4px;
+    line-height: 32px;
+    width: 220px;
+    height: 58px;
+    border-radius: 8px;
+    background-color: #ff8364;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+
+.letters__description {
+    padding-top: 18px;
+    width: 460px;
+    color: #616161;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: -0.1px;
+    line-height: 18px;
+}
+
+.letters {
+    display: flex;
+    margin: auto 17.2%;
+    padding-top: 77px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.input-wrap {
+padding-top: 15px;
+
+
+
+}
+
+@media (max-width: 1240px) {
+    .letters {
+        margin: auto 10.2%;
+    }
+
+    .sign-up {
+        width: 170px;
+        padding-right: 7px;
+    }
+
+    .input {
+        width: 444px;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .pricing__variants {
+        width: 283px;
+    }
+
+    .letters {
+        flex-direction: column;
+    }
+
+    .button-big {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 735px) {
+    .wrapper {
+        padding: 10px;
+        flex-direction: column;
+        padding-bottom: 24px;
+    }
+    .basics {
+        margin: 0;
+    }
+
+    .input,
+.text,
+.basics .header,
+.letters__description {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 30px;
+        line-height: 34px;
+}
+
+    .text,
+    .letters__description{
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .text {
+        margin-bottom: 20px;
+    }
+
+    .letters__description {
+        margin: 0;
+    }
+
+    .link {
+        margin: 26px;
+    }
+
+    .wrapper__pricing {
+        flex-direction: column;
+    }
+
+    .pricing__variants {
+        width: 248px;
+        margin: 0 auto;
+    }
+
+    .pricing__variants.orange {
+        margin: 0 auto;
+        margin-top: 20px;
+
+    }
+
+    .main-header {
+        height: 26.188em;
+        margin-bottom: 35px;
+
+    }
+
+    .wrapper__pricing {
+        padding-bottom: 20px;
+    }
+
+    .letters {
+        padding-top: 20px;
+        margin: auto 27.2%;
+    }
+
+    .button-big {
+        width: 150px;
+        height: 50px;
+    }
+
+
+}
+
+@media (max-width: 350px) {
+    .letters {
+        margin: 0;
+    }
+}
