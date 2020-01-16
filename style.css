@@ -362,8 +362,6 @@ url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"), font-styl
         width: 150px;
         height: 50px;
     }
-
-
 }
 
 @media (max-width: 350px) {
