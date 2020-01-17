@@ -36,6 +36,11 @@ url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"), font-styl
     margin-left: 30px;
 }
 
+.logo-name:hover,
+.circle:hover {
+    cursor: pointer;
+}
+
 .logo-section {
     display: flex;
 }
