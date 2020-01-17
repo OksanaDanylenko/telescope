@@ -55,6 +55,11 @@ url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"), font-styl
     text-decoration: none;
 }
 
+.link:hover {
+    font-size: larger;
+    border-bottom: 2px solid #ff8364;
+}
+
 .button {
     height: 32px;
     border-radius: 4px;
@@ -64,6 +69,15 @@ url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"), font-styl
     font-weight: 700;
     letter-spacing: 0.4px;
     text-transform: uppercase;
+    outline: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    border: solid 2px #ff8364;
+    background: transparent;
+    color: #ff8364;
+
 }
 
 .button-small {
@@ -124,8 +138,12 @@ url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"), font-styl
 }
 
 .pricing__variants.orange {
-    border: 1px solid #ff8364;
     margin-left: 21px;
+}
+
+.pricing__variants:hover {
+    cursor: pointer;
+    border: 1px solid #ff8364;
 }
 
 .wrapper__pricing {
